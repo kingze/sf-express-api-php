@@ -9,7 +9,7 @@ class AbstractBSP
         'server' => "http://bsp-ois.sit.sf-express.com:9080/",
         'server_ssl' => "https://bsp-ois.sit.sf-express.com:9443/",
         'ssl' => false,
-        'uri' => 'bsp-oisp/sfexpressService',
+        'uri' => 'bsp-ois/sfexpressService',
         'checkword' => 'j8DzkIFgmlomPt0aLuwU',
         'accesscode' => 'BSPdevelop'
     ];

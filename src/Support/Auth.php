@@ -1,5 +1,5 @@
 <?php
-namespace hVenus\SFExpressAPI\Support;
+namespace Kingze\SFExpressAPI\Support;
 
 
 class Auth
