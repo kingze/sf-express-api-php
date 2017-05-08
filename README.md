@@ -8,9 +8,7 @@ PHP版顺丰接口(BSP, OMS)
 
 ## 安装
 
-1. 手动安装
 
-  下载 [zip包](https://github.com/hVenus/sf-express-api-php/archive/master.zip) 解压到项目目录。
 
 
 ## 使用
@@ -21,7 +19,7 @@ PHP版顺丰接口(BSP, OMS)
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-use hVenus\SFExpressAPI\BSP\OrderService;
+use Kingze\SFExpressAPI\BSP\OrderService;
 
 // 此处的配置请改成真实数据，其默认运行在开发模式下。
 $config = [

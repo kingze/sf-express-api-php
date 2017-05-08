@@ -1,11 +1,11 @@
-<?php namespace hVenus\SFExpressAPI\BSP;
+<?php namespace Kingze\SFExpressAPI\BSP;
 
-use hVenus\SFExpressAPI\Core\AbstractBSP;
-use hVenus\SFExpressAPI\Support\Auth;
+use Kingze\SFExpressAPI\Core\AbstractBSP;
+use Kingze\SFExpressAPI\Support\Auth;
 
 /**
  * Class OrderService
- * @package hVenus\SFExpressAPI\BSP
+ * @package Kingze\SFExpressAPI\BSP
  */
 class OrderService extends AbstractBSP
 {

@@ -1,12 +1,12 @@
-<?php namespace hVenus\SFExpressAPI\BSP;
+<?php namespace Kingze\SFExpressAPI\BSP;
 
-use hVenus\SFExpressAPI\Core\AbstractBSP;
+use Kingze\SFExpressAPI\Core\AbstractBSP;
 
 /**
  * 人工筛单结果推送接口
  * 如果客户通过筛单功能得到的反馈结果为：1（人工确认），当完成人工筛单时，BSP 将 会通过此接口把人工筛单的结果推送给客户。
  * Class OrderFilterPushService
- * @package hVenus\SFExpressAPI\BSP
+ * @package Kingze\SFExpressAPI\BSP
  */
 class OrderFilterPushService extends AbstractBSP
 {

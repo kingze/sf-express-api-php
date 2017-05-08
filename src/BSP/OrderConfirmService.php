@@ -1,7 +1,7 @@
-<?php namespace hVenus\SFExpressAPI\BSP;
+<?php namespace Kingze\SFExpressAPI\BSP;
 
-use hVenus\SFExpressAPI\Core\AbstractBSP;
-use hVenus\SFExpressAPI\Support\Auth;
+use Kingze\SFExpressAPI\Core\AbstractBSP;
+use Kingze\SFExpressAPI\Support\Auth;
 
 /**
  * 该接口用于：
@@ -9,7 +9,7 @@ use hVenus\SFExpressAPI\Support\Auth;
  *  客户在发货前取消订单。
  * 注意：订单取消之后，订单号也是不能重复利用的。
  * Class OrderConfirmService
- * @package hVenus\SFExpressAPI\BSP
+ * @package Kingze\SFExpressAPI\BSP
  */
 class OrderConfirmService extends AbstractBSP
 {

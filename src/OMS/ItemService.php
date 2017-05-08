@@ -1,7 +1,7 @@
-<?php namespace hVenus\SFExpressAPI\OMS;
-use hVenus\SFExpressAPI\Core\AbstractOMS;
-use hVenus\SFExpressAPI\Support\Auth;
-use hVenus\SFExpressAPI\Support\XML;
+<?php namespace Kingze\SFExpressAPI\OMS;
+use Kingze\SFExpressAPI\Core\AbstractOMS;
+use Kingze\SFExpressAPI\Support\Auth;
+use Kingze\SFExpressAPI\Support\XML;
 
 /**
  * 客户系统通过该接口向顺丰发送商品信息，该接口必须先于入库单接口、出库单接口调用。

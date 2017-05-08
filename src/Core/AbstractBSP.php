@@ -1,4 +1,4 @@
-<?php namespace hVenus\SFExpressAPI\Core;
+<?php namespace Kingze\SFExpressAPI\Core;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
@@ -15,17 +15,17 @@ class AbstractBSP
     ];
 
     private $SERVICE = array(
-        'hVenus\SFExpressAPI\BSP\DeliverTmService'          => 'DeliverTmService',
-        'hVenus\SFExpressAPI\BSP\IdentitySearchService'     => 'IdentitySearchService',
-        'hVenus\SFExpressAPI\BSP\OrderConfirmService'       => 'OrderConfirmService',
-        'hVenus\SFExpressAPI\BSP\OrderFilterPushService'    => 'OrderFilterPushService',
-        'hVenus\SFExpressAPI\BSP\OrderFilterService'        => 'OrderFilterService',
-        'hVenus\SFExpressAPI\BSP\OrderSearchService'        => 'OrderSearchService',
-        'hVenus\SFExpressAPI\BSP\OrderService'              => 'OrderService',
-        'hVenus\SFExpressAPI\BSP\OrderZDService'            => 'OrderZDService',
-        'hVenus\SFExpressAPI\BSP\RoutePushService'          => 'RoutePushService',
-        'hVenus\SFExpressAPI\BSP\RouteService'              => 'RouteService',
-        'hVenus\SFExpressAPI\BSP\ScopeService'              => 'ScopeService',
+        'Kingze\SFExpressAPI\BSP\DeliverTmService'          => 'DeliverTmService',
+        'Kingze\SFExpressAPI\BSP\IdentitySearchService'     => 'IdentitySearchService',
+        'Kingze\SFExpressAPI\BSP\OrderConfirmService'       => 'OrderConfirmService',
+        'Kingze\SFExpressAPI\BSP\OrderFilterPushService'    => 'OrderFilterPushService',
+        'Kingze\SFExpressAPI\BSP\OrderFilterService'        => 'OrderFilterService',
+        'Kingze\SFExpressAPI\BSP\OrderSearchService'        => 'OrderSearchService',
+        'Kingze\SFExpressAPI\BSP\OrderService'              => 'OrderService',
+        'Kingze\SFExpressAPI\BSP\OrderZDService'            => 'OrderZDService',
+        'Kingze\SFExpressAPI\BSP\RoutePushService'          => 'RoutePushService',
+        'Kingze\SFExpressAPI\BSP\RouteService'              => 'RouteService',
+        'Kingze\SFExpressAPI\BSP\ScopeService'              => 'ScopeService',
     );
 
     protected $ret = array(

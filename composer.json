@@ -1,10 +1,10 @@
 {
-    "name": "hvenus/sf-express-api-php",
+    "name": "kingze/sf-express-api-php",
     "description": "sf-express API php vertion.",
     "authors": [
         {
-            "name": "hVenus",
-            "email": "kevin@fm618.com"
+            "name": "kingze",
+            "email": "kingze@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hVenus\\SFExpressAPI\\": "src/"
+            "kingze\\SFExpressAPI\\": "src/"
         }
     },
     "license": "MIT"

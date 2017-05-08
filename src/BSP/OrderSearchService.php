@@ -1,14 +1,14 @@
-<?php namespace hVenus\SFExpressAPI\BSP;
+<?php namespace Kingze\SFExpressAPI\BSP;
 
-use hVenus\SFExpressAPI\Core\AbstractBSP;
-use hVenus\SFExpressAPI\Support\Auth;
+use Kingze\SFExpressAPI\Core\AbstractBSP;
+use Kingze\SFExpressAPI\Support\Auth;
 
 /**
  * 订单结果查询接口
  * 因 Internet 环境下，网络不是绝对可靠，用户系统下订单到顺丰后，不一定可以收到 BSP 返回的数据，
  * 此接口用于在未收到返回数据时，查询下订单（含筛选）接口客户订单当前 的处理情况。
  * Class OrderSearchService
- * @package hVenus\SFExpressAPI\BSP
+ * @package Kingze\SFExpressAPI\BSP
  */
 class OrderSearchService extends AbstractBSP
 {
