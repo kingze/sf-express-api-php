@@ -6,8 +6,8 @@ use GuzzleHttp\Exception\RequestException;
 class AbstractBSP
 {
     protected $config = [
-        'server' => "http://bspoisp.sit.sf-express.com:11080/",
-        'server_ssl' => "https://bspoisp.sit.sf-express.com:11443/",
+        'server' => "http://bsp-ois.sit.sf-express.com:9080/",
+        'server_ssl' => "https://bsp-ois.sit.sf-express.com:9443/",
         'ssl' => false,
         'uri' => 'bsp-oisp/sfexpressService',
         'checkword' => 'j8DzkIFgmlomPt0aLuwU',
