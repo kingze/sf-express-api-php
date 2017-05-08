@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kingze\\SFExpressAPI\\": "src/"
+            "Kingze\\SFExpressAPI\\": "src/"
         }
     },
     "license": "MIT"
