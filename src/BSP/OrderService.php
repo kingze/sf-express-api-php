@@ -29,12 +29,8 @@ class OrderService extends AbstractBSP
      * @param array $addedServices
      * @return string
      */
-    public function Order($orderid , $d_company, $d_contact, $d_tel, $d_address, $params=array(), $cargoes=array(), $addedServices=array()) {
+    public function Order($orderid , $params=array(), $cargoes=array(), $addedServices=array()) {
         $params['orderid'] = $orderid;
-        $params['d_company'] = $d_company;
-        $params['d_contact'] = $d_contact;
-        $params['d_tel'] = $d_tel;
-        $params['d_address'] = $d_address;
 
         $order = '<Order ';
 
