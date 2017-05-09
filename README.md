@@ -41,14 +41,20 @@ $service  = new OrderService();
 
 // 你自己ERP系统里的订单ID。
 $orderid = 88888888;
-// 收件方信息
-$d_company = '罗湖火车站';
-$d_contact = '小雷';
-$d_tel = '13800000000';
-$d_address = '罗湖火车站东区调度室';
 
-// 其它可选参数
+//常用参数
 $data = array(
+    'is_gen_bill_no' => '1',
+    'custid' => '5770100197',
+    #收方信息
+    'd_company' => '收件公司',
+    'd_contact' => '收件人',
+    'd_tel'     => '收件人电话',
+    'd_province'=> '浙江',
+    'd_city'    => '温州',
+    'd_county'  => '瓯海',
+    'd_mobile'  => '收件人手机',
+    'd_address' => '收件人地址',
     // 寄件方信息
     'j_mobile'=>'13000000000',
     'j_province'=>'广东省',
@@ -59,9 +65,9 @@ $data = array(
     'express_type'=>'1', // 快件产品类别
     'pay_method'=>'1', // 付款方式
     'parcel_quantity'=>'1', // 包裹数
-    'cargo_length'=>'33', // 货物总长
-    'cargo_width'=>'33', // 货物总宽
-    'cargo_height'=>'33', // 货物总高
+    'cargo_length'=>'', // 货物总长
+    'cargo_width'=>'', // 货物总宽
+    'cargo_height'=>'', // 货物总高
     'remark'=>'' // 备注
 );
 
@@ -72,7 +78,7 @@ $Cargo = array(
 );
 
 // 下单
-$ret = $service->Order($orderid , $d_company, $d_contact, $d_tel, $d_address, $data, $Cargo);
+$ret = $service->Order($orderid, $data, $Cargo);
 
 // 结果以数组形式返回。具体内容详见顺丰文档。
 print_r($ret);
